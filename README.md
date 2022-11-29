@@ -39,8 +39,8 @@ Each problem setter should include the following files in his problem folder for
 | 2    |Sum two elems of array until one elem|    Rami    |         X         |     X       |                                |      x         |
 | 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
-| 5    |              Tic Tac Toe            |    Mehdi   |         X         |     X       |                                |      x         |
-| 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
+| 5    |              Tic Tac Toe            |    Mehdi   |       Idris       |     X       |                                |      x         |
+| 6    |             palindrome              |    Rami    |       Idris       |     X       |                                |      x         |
 | 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
 | 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
