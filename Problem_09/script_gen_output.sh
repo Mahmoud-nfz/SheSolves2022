@@ -2,7 +2,7 @@
 #!/bin/bash
 
 echo starting compilation...
-g++ ./sol_AC.cpp -O3 -o sol
+g++ ./AC_solution.cpp -O3 -o sol
 echo compilation finished.
 
 for filename in ./tests/*.in; do

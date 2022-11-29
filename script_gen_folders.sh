@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {1..11}
+for i in {01..11}
 do
   mkdir "Problem_$i" ;
   echo "created folder $i";
