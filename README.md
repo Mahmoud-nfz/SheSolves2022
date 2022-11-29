@@ -29,21 +29,20 @@ Each problem setter should include the following files in his problem folder for
 |      | Problem            | author | Problem statement | AC solution | TLE solution | input / output |
 | ---- | ------------------ | ------ | ----------------- | ----------- | ------------ | -------------- |
 | 1    |         X          |    X   |         X         |      X      |       X      |        X       |
-| 2    |         X          |    X   |         X         |      X      |       X      |        X       |
+| 2    |   an< (a0+a1+a2+...+an)/n < an+1      |    X   |         X         |      X      |       X      |        X       |
 
 #### Official contest problems:
 
 |      | Problem                             | author     | Problem statement | AC solution | TLE solution (if there is any) | input / output |
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
 | 1    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 2    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 3    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 4    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 5    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 6    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 7    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 8    |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 9    |                  X                  |     X      |         X         |     X       |                                |      x         |
+| 2    |Sum two elems of array until one elem|    Rami    |         X         |     X       |                                |      x         |
+| 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
+| 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
+| 5    |              Tic Tac Toe            |    Mehdi   |         X         |     X       |                                |      x         |
+| 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
+| 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
+| 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
+| 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
 | 10   |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 11   |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 12   |                  X                  |     X      |         X         |     X       |                                |      x         |
+| 11   |          Chef with ovens            |   Raed     |         X         |     X       |                                |      x         |
