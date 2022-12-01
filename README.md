@@ -40,7 +40,7 @@ Each problem setter should include the following files in his problem folder for
 | 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
 | 5    |              Tic Tac Toe            |    Mehdi-Mahdi   |         X         |     Yes       |                                |      x         |
-| 6    |             palindrome              |    Rami(idea) -  Idris    |     X        |     X       |                                |      x         |
+| 6    |             palindrome              |    Rami    |     X        |     X       |                                |      x         |
 | 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
 | 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
