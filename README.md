@@ -54,7 +54,7 @@ Each problem setter should include the following files in his problem folder for
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
 | 5    |              Tic Tac Toe            | Mehdi-Mahdi|         X         |     Yes     |                                |      x         |
 | 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
-| 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
+| 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
 | 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
 | 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            Yes                 |      x         |
