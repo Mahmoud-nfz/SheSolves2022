@@ -5,7 +5,13 @@ int main() {
     int t; cin >> t;
     while(t--) {
 
-        int n, m; cin >> n >> m;
+        int n ; cin >> n ;
+        if(n>60){
+            cout << "YES" << endl ;
+        }
+        else{
+            cout << "NO" << endl ;
+        }
 
     }
     return 0;
