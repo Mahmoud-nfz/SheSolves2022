@@ -22,6 +22,16 @@ Each problem setter should include the following files in his problem folder for
 * Easy Medium:  ***7 problems***
 * Medium: ***5 problems***
 
+
+## Problem Setters
+
+* Mahmoud Nefzi
+* Med Ali Ouachani
+* Idriss
+* Mahdi 1
+* Mahdi 2
+* Adam
+
 ## Progress 
 
 #### Pre-contest problems:
