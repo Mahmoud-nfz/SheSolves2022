@@ -11,8 +11,10 @@ At the i-th operation, Zoe chose the first i elements of the array and cyclicall
 
 For example, if a=[5,4,2,1,3] and i=3 (that is, this is the third operation), then as a result of this operation, he could get any of these three arrays:
 
-a = [5,4,2,1,3] (makes 0 cyclic shifts, or any number that is divisible by 3).
-a = [2,5,4,1,3] (makes 1 cyclic shift, or any number that has a remainder of 1 when divided by 3).
+a = [5,4,2,1,3] (makes 0 cyclic shifts, or any number that is divisible by 3).  
+
+a = [2,5,4,1,3] (makes 1 cyclic shift, or any number that has a remainder of 1 when divided by 3).  
+
 a = [4,2,5,1,3] (makes 2 cyclic shifts, or any number that has a remainder of 2 when divided by 3).
 
 
@@ -34,7 +36,7 @@ The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the 
 
 In each test case:
 
-The first line of the test case contains one integer **n** (2 ≤ n ≤ 2⋅10^3) — the length of the array a.
+The first line of the test case contains one integer **n** (2 ≤ n ≤ $(2⋅10^3)) — the length of the array a.
 
 The next line contains the final state of the array a: n integers a[1],a[2],…,a[n] (1 ≤ a[i] ≤ n) are written. All **a[i]** are distinct.
 
