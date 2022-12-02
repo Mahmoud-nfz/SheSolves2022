@@ -16,14 +16,14 @@ a = [2,5,4,1,3] (makes 1 cyclic shift, or any number that has a remainder of 1 w
 a = [4,2,5,1,3] (makes 2 cyclic shifts, or any number that has a remainder of 2 when divided by 3).
 
 
-Let's look at an example. Let n=6, i.e. initially a = [1,2,3,4,5,6]. A possible scenario is described below.
+Let's look at an example. Let n=6, i.e. initially a = [1,2,3,4,5,6]. A possible scenario is described below.  
 
-i = 1: no matter how many cyclic shifts Zoe makes, the array a does not change.
-i = 2: let's say Zoe decided to make a 1 cyclic shift, then the array will look like a = [2,1,3,4,5,6].
-i = 3: let's say Zoe decided to make 1 cyclic shift, then the array will look like a = [3,2,1,4,5,6].
-i = 4: let's say Zoe decided to make 2 cyclic shifts, the original array will look like a = [1,4,3,2,5,6].
-i = 5: let's say Zoe decided to make 0 cyclic shifts, then the array won't change.
-i = 6: let's say Zoe decided to make 4 cyclic shifts, the array will look like a = [3,2,5,6,1,4].
+i = 1: no matter how many cyclic shifts Zoe makes, the array a does not change.  
+i = 2: let's say Zoe decided to make a 1 cyclic shift, then the array will look like a = [2,1,3,4,5,6].  
+i = 3: let's say Zoe decided to make 1 cyclic shift, then the array will look like a = [3,2,1,4,5,6].  
+i = 4: let's say Zoe decided to make 2 cyclic shifts, the original array will look like a = [1,4,3,2,5,6].  
+i = 5: let's say Zoe decided to make 0 cyclic shifts, then the array won't change.  
+i = 6: let's say Zoe decided to make 4 cyclic shifts, the array will look like a = [3,2,5,6,1,4].  
 
 You are given a final array state a after all n operations. Determine if there is a way to perform the operation that produces this result. In this case, if an answer exists, print the numbers of cyclical shifts that occurred during each of the n operations.
 
