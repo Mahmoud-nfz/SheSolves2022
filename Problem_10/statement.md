@@ -1,68 +1,66 @@
-# Problem A : Image classification
+# Problem 10 : Ironian War
 
 ## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
+The Ironian kingdom has entered a war with the dwarfs, the emperor was afraid to lose it, that's why he summoned the skilled wizard "IronByte" from the wizards land to try the reincreate the legendary slayer "Gaya The Dragon Champion". To reinsert the legendary slayer IronByte needs to gather some ancient gems, those gems are stored in a fabled cave, the problem is that the cave is protected by the legendary guardian Zoe. She sets a password to the cave to protect it, that's why he needs your help to crack it.
 
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
+Zoe got an array a of numbers from 1 to n, where **a[i] = i**.
 
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
+He performed n operations sequentially. In the end, he received a new state of the array.
 
-Her data set is **only** composed of correct images and the symbol is always painted in black.
+At the i-th operation, Zoe chose the first i elements of the array and cyclically shifted them to the right an arbitrary number of times (elements with indexes i+1 and more remain in their places). One cyclic shift to the right is such a transformation that the array a=[a1,a2,…,an] becomes equal to the array a=[ai,a1,a2,…,ai−2,ai−1,ai+1,ai+2,…,an].
 
-We define a correct image as an image that contains a correct plus or a correct minus.
+For example, if a=[5,4,2,1,3] and i=3 (that is, this is the third operation), then as a result of this operation, he could get any of these three arrays:
 
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
+a = [5,4,2,1,3] (makes 0 cyclic shifts, or any number that is divisible by 3);
+a = [2,5,4,1,3] (makes 1 cyclic shift, or any number that has a remainder of 1 when divided by 3);
+a = [4,2,5,1,3] (makes 2 cyclic shifts, or any number that has a remainder of 2 when divided by 3).
 
-  - A correct minus is defined as a horizontal line.
+Let's look at an example. Let n=6, i.e. initially a = [1,2,3,4,5,6]. A possible scenario is described below.
 
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
+i = 1: no matter how many cyclic shifts Zoe makes, the array a does not change.
+i = 2: let's say Zoe decided to make a 1 cyclic shift, then the array will look like a = [2,1,3,4,5,6].
+i = 3: let's say Zoe decided to make 1 cyclic shift, then the array will look like a = [3,2,1,4,5,6].
+i = 4: let's say Zoe decided to make 2 cyclic shifts, the original array will look like a = [1,4,3,2,5,6].
+i = 5: let's say Zoe decided to make 0 cyclic shifts, then the array won't change.
+i = 6: let's say Zoe decided to make 4 cyclic shifts, the array will look like a = [3,2,5,6,1,4].
 
+You are given a final array state a after all n operations. Determine if there is a way to perform the operation that produces this result. In this case, if an answer exists, print the numbers of cyclical shifts that occurred during each of the n operations.
 
-Nour lost the code of her image classification algorithm.
-
-Write an algorithm that classifies images from her data set.  
+The cave password will be those cyclical shifts.
 
 ## Input :
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
+The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the number of test cases in the test.
 
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
+In each test case:
 
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
+The first line of the test case contains one integer **n** (2 ≤ n ≤ 2⋅10^3) — the length of the array a.
+
+The next line contains the final state of the array a: n integers a[1],a[2],…,a[n] (1 ≤ a[i] ≤ n) are written. All **a[i]** are distinct.
 
 ## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
+For each test case, print the answer on a separate line.
+
+Print -1 if the given final value a cannot be obtained by performing an arbitrary number of cyclic shifts on each operation. Otherwise, print n non-negative integers d1,d2,…,dn (d[i] ≥ 0), where d[i] means that during the i-th operation the first i elements of the array were cyclic shifted to the right di times.
+
+If there are several possible answers, print the one where the total number of shifts is minimal (that is, the sum of d[i] values is the smallest). If there are several such answers, print any of them. 
 
 ## Example:
 Input :  
 
 ```
 3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
+6
+3 2 5 6 1 4
+3
+3 1 2
+8
+5 8 1 3 2 6 4 7
 ```
 
 Output :  
 
 ```
-PLUS
-MINUS
-MINUS
+0 1 1 2 0 4 
+0 0 1 
+0 1 2 0 2 5 6 2 
 ```
