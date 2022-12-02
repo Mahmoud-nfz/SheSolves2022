@@ -34,7 +34,7 @@ The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the 
 
 In each test case:
 
-The first line of the test case contains one integer **n** (2 ≤ n ≤ $n^2$) — the length of the array a.
+The first line of the test case contains one integer **n** (2 ≤ n ≤ $10^3$) — the length of the array a.
 
 The next line contains the final state of the array a: n integers a[1],a[2],…,a[n] (1 ≤ a[i] ≤ n) are written. All **a[i]** are distinct.
 
