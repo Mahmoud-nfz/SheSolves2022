@@ -44,5 +44,5 @@ Each problem setter should include the following files in his problem folder for
 | 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
 | 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
-| 10   |                  X                  |   Med Ali  |         X         |     X       |                                |      x         |
+| 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            Yes                 |      x         |
 | 11   |          Chef with ovens            |    Raed    |         X         |     X       |                                |      x         |
