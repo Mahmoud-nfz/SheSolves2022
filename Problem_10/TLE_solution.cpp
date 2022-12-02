@@ -20,8 +20,8 @@
 using namespace std;
 typedef long long int ll; 
 
-int main()
-{
+
+int main() {
     ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
@@ -50,10 +50,10 @@ int main()
                     }
                 }
             }
-            for(int k = 1; k <= n; k++){
+            for(int k = 1; k <= n; k++) {
                 if(k <= i) {
                     if(mp[k] + ck <= i)
-                       mp[k]+= ck;
+                        mp[k]+= ck;
                     else
                         mp[k] =(mp[k] + ck -i);
                 }
@@ -61,8 +61,9 @@ int main()
         }
        for(int i = v1.size()-1; i > -1; i--)
             cout << v1[i] << " ";
-       cout << endl;
+        cout << endl;
     }
+
 }
 // size
 // 07-02-46 
