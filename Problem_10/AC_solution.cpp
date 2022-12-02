@@ -20,22 +20,6 @@
 using namespace std;
 typedef long long int ll;
 
-
-ll MAXLL(ll x , ll y) {
-    if ( x >= y )
-        return x ;
-    else
-        return y ;
-}
- 
-ll MINLL(ll x , ll y) {
-    if ( x <= y )
-        return x ;
-    else
-        return y ;
-}
- 
-
 int a[2005];
 int tmp[2005];
 
