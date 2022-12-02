@@ -2,7 +2,7 @@
 
 ## Statement:
 
-Doni has for long been a fan of competitive programming but has found that there are some problems that are too boring for them.
+Doni has for long been a fan of competitive programming but has found that there are some problems that are too boring for her.
 A problem is boring for her if the time it takes to solve exceeds 60 minutes.
 You are given the time in minutes it takes to solve a problem, determine whether Doni will find it boring.
 
