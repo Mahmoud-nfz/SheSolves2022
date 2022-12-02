@@ -16,7 +16,7 @@ a = [2,5,4,1,3] (makes 1 cyclic shift, or any number that has a remainder of 1 w
 a = [4,2,5,1,3] (makes 2 cyclic shifts, or any number that has a remainder of 2 when divided by 3).
 
 
-Let's look at an example. Let n=6, i.e. initially a = [1,2,3,4,5,6]. A possible scenario is described below.  
+Let's look at an example. Let n=6, initially a = [1,2,3,4,5,6]. A possible scenario is described below.  
 
 i = 1: no matter how many cyclic shifts Zoe makes, the array a does not change.  
 i = 2: let's say Zoe decided to make a 1 cyclic shift, then the array will look like a = [2,1,3,4,5,6].  
@@ -34,7 +34,7 @@ The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the 
 
 In each test case:
 
-The first line of the test case contains one integer **n** (2 ≤ n ≤ $(2⋅10^3)) — the length of the array a.
+The first line of the test case contains one integer **n** (2 ≤ n ≤ $(2⋅10^3)$) — the length of the array a.
 
 The next line contains the final state of the array a: n integers a[1],a[2],…,a[n] (1 ≤ a[i] ≤ n) are written. All **a[i]** are distinct.
 
