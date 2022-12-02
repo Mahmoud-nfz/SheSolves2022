@@ -32,6 +32,7 @@ Each problem setter should include the following files in his problem folder for
 * Mahdi 1
 * Mahdi 2
 * Adam
+* Raed
 
 ## Progress 
 
