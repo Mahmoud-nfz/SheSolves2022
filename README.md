@@ -35,14 +35,14 @@ Each problem setter should include the following files in his problem folder for
 
 |      | Problem                             | author     | Problem statement | AC solution | TLE solution (if there is any) | input / output |
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
-| 1    |    Phone number                     |    Idris   |       Yes       |     X       |                                |      x         |
+| 1    |    Phone number                     |    Idris   |        Yes        |     X       |                                |      x         |
 | 2    |Sum two elems of array until one elem|    Rami    |         X         |     X       |                                |      x         |
 | 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
-| 5    |              Tic Tac Toe            |    Mehdi-Mahdi   |         X         |     Yes       |                                |      x         |
-| 6    |             palindrome              |    Rami    |     X        |     X       |                                |      x         |
+| 5    |              Tic Tac Toe            | Mehdi-Mahdi|         X         |     Yes     |                                |      x         |
+| 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
 | 7    |         2d matrix of layers         |   Mahmoud  |         X         |     X       |                                |      x         |
 | 8    |          Array of colors            |    Rami    |         X         |     X       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
-| 10   |                  X                  |     X      |         X         |     X       |                                |      x         |
-| 11   |          Chef with ovens            |   Raed     |         X         |     X       |                                |      x         |
+| 10   |                  X                  |   Med Ali  |         X         |     X       |                                |      x         |
+| 11   |          Chef with ovens            |    Raed    |         X         |     X       |                                |      x         |
