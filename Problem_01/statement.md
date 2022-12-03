@@ -1,7 +1,7 @@
 # Problem A : Phone Number
 
 ## Statement:
-Your secretary miss up her work. the phone number of your potential client has been hidden in a complex note. Remeber that your client is tunisian and have a tunisian phone number, from the most known operators (TT, ooredoo , Orange). It could be invalid then check it twice and do a better work than your secretary because you need to fire her asap.
+Your secretary ruined up her work. The phone number of your potential client has been hidden in a complex note. Remeber that your client is tunisian and have a tunisian phone number, from the most known operators (TT, ooredoo , Orange). It could be invalid then check it twice and do a better work than your secretary because you need to fire her asap.
 
 (there is no need to check the international phone code)
 
