@@ -48,7 +48,7 @@ Each problem setter should include the following files in his problem folder for
 
 |      | Problem                             | author     | Problem statement | AC solution | TLE solution (if there is any) | input / output |
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
-| 1    |    Phone number                     |    Idris   |        Yes        |     X       |                                |      x         |
+| 1    |    Phone number                     |    Idris   |        Yes        |    Yes      |                                |      x         |
 | 2    |Sum two elems of array until one elem|    Rami    |         X         |     X       |                                |      x         |
 | 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
