@@ -55,7 +55,7 @@ Each problem setter should include the following files in his problem folder for
 | 5    |              Tic Tac Toe            | Mehdi-Mahdi|         X         |     Yes     |                                |      x         |
 | 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
-| 8    |          Array of colors            |    Rami    |         YES         |     YES       |                                |      x         |
+| 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
 | 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            Yes                 |      x         |
 | 11   |          Chef with ovens            |    Raed    |         X         |     X       |                                |      x         |
