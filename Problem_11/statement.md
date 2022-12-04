@@ -27,7 +27,7 @@ Each test case consists of one line which contains  integers **n**, **k**, **c**
     c is the capacity of one oven.
     f is the time to cook c Baklawas in one oven.
 ## Output :
-For each test case, output the number of ovens that satisfies his needs.  
+For each test case, output the minimum number of ovens that satisfies his needs.  
 
 ## Example:
 Input :  
