@@ -1,68 +1,57 @@
-# Problem A : Image classification
+#  PreContest Problem B : IMO Preparation
 
-## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
+##  Statement:
 
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
+Preparing for her first ever participation at the **International Mathematical Olympiad** (IMO), Sarah encountered a simple and tricky problem that she needs to prove.
+In the process of proving it, she started by manually testing diffrent examples that she had in mind which turned out being a waste of time **especially with large numbers**. So as a software engineer student she decided to write a program that automatically gives her the result.
+As one of her closest friends you are asked to help her writing this program.
 
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
+**The "IMO" Problem Statement :** 
+Let $1 \leq a_{0} \lt a_{1} \lt ... \lt a_{n}$  a finite sequence of positive integers.
+Prove that there exists a unique integer $n \geq 1$ such that :
+$$ a_{n} \lt {a_{0}+a_{1}+...+a_{n} \over n} \leq a_{n+1}$$
 
-Her data set is **only** composed of correct images and the symbol is always painted in black.
-
-We define a correct image as an image that contains a correct plus or a correct minus.
-
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
-
-  - A correct minus is defined as a horizontal line.
-
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
+To make the problem easier, we assume that the sequence $a_{0}, a_{1}, ... , a_{n}$ follows arithmetic sequence with reason 1 :  
+$a_{1} = a_{0}+1$ 
+$a_{2} = a_{1}+1$ 
+...  
+$a_{n+1} = a_{n}+1$
 
 
-Nour lost the code of her image classification algorithm.
+##  Input :
 
-Write an algorithm that classifies images from her data set.  
+The first line contains a single integer **T** (1≤T≤100) — the number of test cases.
 
-## Input :
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
+Each test case consists of one line containing two integers **$a_{0}$** and **$a_{n}$** (1 $\leq a_{0} \lt a_{n} \leq 10^7$) — where $a_{0}$ is the first number in the sequence and $a_{n}$ is the last one.
 
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
+##  Output :
 
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
+For each test case, print one integer — the unique integer **n** mentionned in the **“IMO” Problem Statement**.
 
-## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
+##  Example:
 
-## Example:
-Input :  
+Input :
 
 ```
+
 3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
-```
 
-Output :  
+1 6
+
+4 9
+
+4754 97535
 
 ```
-PLUS
-MINUS
-MINUS
+
+Output :
+
+```
+
+3
+
+4
+
+48652
+
 ```
