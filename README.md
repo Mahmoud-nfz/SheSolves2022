@@ -30,8 +30,8 @@ Each problem setter should include the following files in his problem folder for
 * Rami Zouari
 * Yassine
 * Idris
-* Mahdi 1
-* Mahdi 2
+* Mahdi Chaaabne
+* Mehdi Ben Salha
 * Adam
 * Raed
 
