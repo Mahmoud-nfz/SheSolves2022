@@ -42,7 +42,7 @@ Each problem setter should include the following files in his problem folder for
 |      | Problem            | author | Problem statement | AC solution | TLE solution | input / output |
 | ---- | ------------------ | ------ | ----------------- | ----------- | ------------ | -------------- |
 | 1    |         Doni and boring problems          |    Mahmoud   |         YES         |      YES      |       Doesn't exist      |        X       |
-| 2    |   an< (a0+a1+a2+...+an)/n < an+1      |    Yassine   |         X         |      X      |       X      |        X       |
+| 2    |   an< (a0+a1+a2+...+an)/n < an+1      |    Yassine   |         YES         |      X      |       X      |        X       |
 
 #### Official contest problems:
 
