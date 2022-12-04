@@ -7,9 +7,9 @@ Fatma and Hiba loved the game so much that they play all day long. <br />
 Mariem thought that they wouldn't annoy her anymore, but that wasn't the case because at the end of each day,the 2 sisters come to her with a bunch of papers so that Mariem tells them who wins.<br />
 Mariem wants from you to write a code that output the winner of each paper given, to save her the time so that she can study.<br />
 Notes:<br />
-	.Hiba always start and always begin with X <br />
-	.If Hiba wins you output 1,otherwise if Fatma wins you output 2 else you output 0 (in the case of a tie or if the game is unfinished)<br />
-	.Hiba and Fatma are starters so they sometimes make a mistake (for example hiba plays twice in a row), in that case you output -1<br />
+	<pre>.Hiba always start and always begin with X <br />
+	<pre>.If Hiba wins you output 1,otherwise if Fatma wins you output 2 else you output 0 (in the case of a tie or if the game is unfinished)<br />
+	<pre>.Hiba and Fatma are starters so they sometimes make a mistake (for example hiba plays twice in a row), in that case you output -1<br />
 
 <pre>
 O..                                                         OX.                   O.X                                                        XOX
@@ -50,6 +50,7 @@ XXO
 OXO
 Output :  
 
+```
 ```
 -1
 2
