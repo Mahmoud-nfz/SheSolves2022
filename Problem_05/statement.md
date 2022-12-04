@@ -26,7 +26,7 @@ The first line contains a single integer **T** (1≤T≤10E9) — the number of 
 the 3 lines represent the paper given by the 2 sisters (the . means that it is empty)
 
 ## Output :
-For each test case, output 1 if hiba wins, 2 if fatma wins , -1 if it is not correct and 0 else 
+For each test case, output as it is shown above. 
 
 ## Example:
 Input :  
