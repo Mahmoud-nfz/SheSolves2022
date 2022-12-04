@@ -19,7 +19,9 @@ For each test case, output the minimum number of colors that can appear on the r
 Input :  
 
 ```
-3
+4
+1
+1
 6
 1 2 -1 9 -1 1
 2
@@ -31,11 +33,13 @@ Input :
 Output :  
 
 ```
+1
 3
+-1
 5
 ```
 
-In the first test case one way to color the ribbon is as follows :
+In the second test case one way to color the ribbon is as follows :
 ```
 1 2 1 9 2 1
 ```
