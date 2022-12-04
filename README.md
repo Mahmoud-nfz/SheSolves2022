@@ -58,4 +58,4 @@ Each problem setter should include the following files in his problem folder for
 | 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
 | 9    |         Policeman and thief         |    Raed    |         X         |     X       |                                |      x         |
 | 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            Yes                 |      x         |
-| 11   |          Chef with ovens            |    Raed    |         X         |     X       |                                |      x         |
+| 11   |          Hatem's Secret Recipe           |    Raed    |        Yes        |     X       |                                |      x         |
