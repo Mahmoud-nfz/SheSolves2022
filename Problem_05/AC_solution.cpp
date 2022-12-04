@@ -41,28 +41,32 @@ int main()
                 }
          if(o>x || x-o>=2)
         {
-            cout<<"no"<<"\n";
+            cout<<-1<<"\n";
             continue;
         }
         else if(x==2)
         {
-           cout<<"yes"<<"\n";
+           cout<<0<<"\n";
             continue;
         }
         else if(x==o)
         {
             if(verify('X'))
-                cout<<"no"<<"\n";
+                cout<<-1<<"\n";
+            else if (verify('O'))
+                cout<<2<<"\n";
             else
-                cout<<"yes"<<"\n";
+                cout<<0<<"\n";
                 continue;
         }
         else
         {
             if(verify('O'))
-                cout<<"no"<<"\n";
+                cout<<-1<<"\n";
+            else if (verify('X'))
+                cout<<1<<"\n";
             else
-                cout<<"yes"<<"\n";
+                cout<<0<<"\n";
                 continue;
         }
     }
