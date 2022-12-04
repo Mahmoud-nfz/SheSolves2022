@@ -52,7 +52,7 @@ Each problem setter should include the following files in his problem folder for
 | 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      x         |
 | 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
-| 5    |              Tic Tac Toe            | Mehdi-Mahdi|         X         |     Yes     |                                |      x         |
+| 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      x         |
 | 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
 | 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
