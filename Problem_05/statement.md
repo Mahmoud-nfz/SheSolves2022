@@ -48,9 +48,11 @@ O.X
 XOX
 XXO
 OXO
+```
+
 Output :  
 
-```
+
 ```
 -1
 2
