@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>  
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long
 
@@ -17,8 +17,10 @@ int main() {
 
         cout << " sum :" << sum  << endl ;
 
-        for (ll i = begin; i < end+2; ++i) {
-            if( ((long double)sum/i <= (an+1)) && ((long double)sum/i > an) ){ // OUTPUTING THE RESULT IF IT EXISTS
+        for (ll i = begin; i < end+2; ++i) {// OUTPUTING THE RESULT IF IT EXISTS
+            if( ((long double)sum/i > (an+1)) ){
+                break;
+            }else if( ((long double)sum/i > an) ){
                 cout << i;
                 res = false;
                 break;
