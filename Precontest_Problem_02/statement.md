@@ -1,3 +1,4 @@
+
 #  PreContest Problem B : IMO Preparation
 
 ##  Statement:
@@ -29,7 +30,7 @@ Each test case consists of one line containing two integers **$a_{0}$** and **$a
 
 ##  Output :
 
-For each test case, print one integer — the unique integer **n** mentionned in the **“IMO” Problem Statement**.
+For each test case, print one integer — the unique integer **n** mentionned in the **“IMO” Problem Statement** if **n** exists if it does not then print **NO** .
 
 ##  Example:
 
@@ -45,6 +46,8 @@ Input :
 
 4754 97535
 
+56332 67477864
+
 ```
 
 Output :
@@ -56,5 +59,7 @@ Output :
 4
 
 48652
+
+NO
 
 ```
