@@ -12,7 +12,7 @@ As one of her closest friends you are asked to help her writing this program.
 Let $1 \leq a_{0} \lt a_{1} \lt ... \lt a_{n}$  a finite sequence of positive integers.
 Prove that there exists a unique integer $n \geq 1$ such that :
 
-$a_{n} \lt {a_{0}+a_{1}+...+a_{n} \over n} \leq a_{n+1}$
+$a_{n} \lt {a_{0}+a_{1}+...+a_{n} \over k} \leq a_{n+1}$
 
 To make the problem easier, we assume that the sequence $a_{0}, a_{1}, ... , a_{n}$ follows arithmetic sequence with reason 1 :  
 $a_{1} = a_{0}+1$
@@ -32,7 +32,7 @@ Each test case consists of one line containing two integers **$a_{0}$** and **$a
 
 ##  Output :
 
-For each test case, print one integer — the unique integer **n** mentionned in the **“IMO” Problem Statement** if **n** exists if it does not then print **NO** .
+For each test case, print one integer — the unique integer **k** mentionned in the **“IMO” Problem Statement** if **k** exists, if it doesn't then print **NO** .
 
 ##  Example:
 
