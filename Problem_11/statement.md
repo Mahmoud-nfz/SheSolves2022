@@ -1,68 +1,41 @@
-# Problem A : Image classification
+# Problem K : Hatem's secret recipe
 
 ## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
+Hatem has a well-known Baklawa Shop. This is due to his great attention to quality and for never being late when it comes to orders. In fact, he and his partner had devised a recipe that made their Baklawas irresistible.
+However, his partner is going on a family vacation for a whole month and fearful of someone stealing his recipe Hatem chooses to do all the work by himself.
 
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
+Hatem has access to a lot of ovens that he can set up to match any order he gets where each oven has a capacity **c**. It takes him **k** time to set up one oven.
+Each oven needs **f** time to cook **c** Baklawas.
 
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
+Mister Hatem wants to know the number of ovens needed to bake all the *n* Baklawas in the minimum time possible.
 
-Her data set is **only** composed of correct images and the symbol is always painted in black.
+**NOTE:**
 
-We define a correct image as an image that contains a correct plus or a correct minus.
+->Because He is doing all the work by himself, Hatem can't cook in an oven while setting another : He finishes setting all the ovens he needs **then**, he would start cooking.
 
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
+->The time needed to take the cooked Baklawas out of the oven and start cooking the next c Baklawas **is ignored** : Mister Hatem is so quick.
 
-  - A correct minus is defined as a horizontal line.
-
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
-
-
-Nour lost the code of her image classification algorithm.
-
-Write an algorithm that classifies images from her data set.  
+->All Baklawas are ready at the same moment **f** time after they started baking.
 
 ## Input :
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
+The first line contains a single integer **T** (**TODO**) — the number of test cases. Then the test cases follow.
 
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
-
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
-
+Each test case consists of one line which contains  integers **n**, **k**, **c**, **f**( **TODO** ) — where :
+ 
+    n is the number of ordered Baklawas.
+    k is the time needed to set an oven.
+    c is the capacity of one oven.
+    f is the time to cook c Baklawas in one oven.
 ## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
+For each test case, output the number of ovens that satisfies his needs.  
 
 ## Example:
 Input :  
 
 ```
-3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
 ```
 
 Output :  
 
 ```
-PLUS
-MINUS
-MINUS
 ```
