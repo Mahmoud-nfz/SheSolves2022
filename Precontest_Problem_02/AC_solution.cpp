@@ -14,9 +14,6 @@ int main() {
         sum = somme(a0,an); // CALCULATING THE SUM OF THE SEQUENCE (FROM a0 to an)
         begin = sum / an;
         end = sum / (an+1);
-
-        cout << " sum :" << sum  << endl ;
-
         for (ll i = begin; i < end+2; ++i) {// OUTPUTING THE RESULT IF IT EXISTS
             if( ((long double)sum/i > (an+1)) ){
                 break;
