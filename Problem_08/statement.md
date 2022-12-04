@@ -1,68 +1,42 @@
-# Problem A : Image classification
+# Problem H : Nada and her array of colors
 
 ## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
-
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
-
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
-
-Her data set is **only** composed of correct images and the symbol is always painted in black.
-
-We define a correct image as an image that contains a correct plus or a correct minus.
-
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
-
-  - A correct minus is defined as a horizontal line.
-
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
-
-
-Nour lost the code of her image classification algorithm.
-
-Write an algorithm that classifies images from her data set.  
+Nada is into painting and coloring so her friends got her a present for her birthday, a ribbon to color on. However this ribbon was divided into **n** cells and some of them had already been colored.
+Nada wants to color the ribbon using the minimum number of colors in such a way that no two adjacent cells have the same color.
+You are given the description of a ribbon, your task is to determine the minimum number of colors the ribbon can be colored in such that no two adjacent cells have the same color. Or print -1 if it is impossible.
 
 ## Input :
 The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
 
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
+The first line contains an integer **n** (1≤ n ≤10^5) — where n is the length of the ribbon.
 
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
+The next line contains n integers ai, the description of the ribbon. If the ai is -1 then it isn't colored, otherwise ai is the reference (just an integer) of the color used. (1≤ ai ≤ 10^5).
 
 ## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
+For each test case, output the minimum number of colors that can appear on the ribbon while coloring it in such a way that no two adjacent cells are the same color. Or print -1 if it is impossible.  
 
 ## Example:
 Input :  
 
 ```
 3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
+6
+1 2 -1 9 -1 1
+2
+1 1
+8
+1 3 -1 5 -1 6 8 -1
 ```
 
 Output :  
 
 ```
-PLUS
-MINUS
-MINUS
+3
+5
 ```
+
+In the first test case one way to color the ribbon is as follows :
+```
+1 2 1 9 2 1
+```
+Here we only used 3 colors : color 1, color 2 and color 9.
