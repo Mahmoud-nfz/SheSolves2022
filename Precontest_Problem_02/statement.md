@@ -12,7 +12,7 @@ Prove that there exists a unique integer $n \geq 1$ such that :
 $$ a_{n} \lt {a_{0}+a_{1}+...+a_{n} \over n} \leq a_{n+1}$$
 
 To make the problem easier, we assume that the sequence $a_{0}, a_{1}, ... , a_{n}$ follows arithmetic sequence with reason 1 :  
-$a_{1} = a_{0}+1$ 
+$a_{1} = a_{0}+1$
 $a_{2} = a_{1}+1$ 
 ...  
 $a_{n+1} = a_{n}+1$
