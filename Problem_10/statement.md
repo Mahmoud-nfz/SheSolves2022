@@ -27,7 +27,7 @@ i = 6: let's say Zoe decided to make 4 cyclic shifts, the array will look like a
 
 You are given a final array state a after all n operations. Determine if there is a way to perform the operation that produces this result. In this case, if an answer exists, print the numbers of cyclical shifts that occurred during each of the n operations.
 
-The cave password will be those cyclical shifts in the ascending order.
+The cave password will be **the toal number** of those cyclical shifts.
 
 ## Input :
 The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the number of test cases in the test.
