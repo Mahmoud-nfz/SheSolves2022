@@ -50,8 +50,8 @@ Each problem setter should include the following files in his problem folder for
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
 | 1    |    Phone number                     |    Idris   |        Yes        |    Yes      |                                |      x         |
 | 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      x         |
-| 3    |        Messi's last worldcup        |    Adam    |         X         |     X       |                                |      x         |
-| 4    |          Ice cream shop             |    Adam    |         X         |     X       |                                |      x         |
+| 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      x         |
+| 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      x         |
 | 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      x         |
 | 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
