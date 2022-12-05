@@ -1,22 +1,33 @@
-#include <iostream>  
-
+#include <bits/stdc++.h>  
 using namespace std;
-string Filter(const string &to){
-    string final;
-    for(string::const_iterator it = to.begin(); it != to.end(); ++it)
-        if((*it >= '0' && *it <= '9'))
-            final += *it;
-    return final;
-}
 
 int main() {
     int t; cin >> t;
     while(t--) {
-        string s;
-        cin>>s;
-        s = Filter(s);
-        if(s.size()==8&&(s[0]=='2'||s[0]=='5'||s[0]=='9')) cout<<s<<endl;
-        else cout<<-1<<endl;
+
+        int a[28] ;
+        for(int i = 0 ; i < 28 ; i ++){
+            a[i] = 0 ;
+        }
+        int n ; cin >> n ;
+        for(int i = 0 ; i < n ; i ++){
+            char c ;
+            cin >> c ;
+            a[c-'A'] ++ ;
+        }
+        int m = *max_element(a,a+28) ;
+        int cnt = 0 ;
+        for(int i = 0 ; i < 28 ; i ++){
+            if(a[i] == m)
+                cnt ++ ;
+        }
+        if(cnt > 1){
+            cout << "#" << endl ;
+        }
+        else{
+            cout << (char) (max_element(a,a+28) - a + 'A') << endl ;
+        }
+
     }
     return 0;
 }
