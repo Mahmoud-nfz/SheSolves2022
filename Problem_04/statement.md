@@ -1,68 +1,36 @@
-# Problem A : Image classification
+# Problem D: Ice-Cream
 
-## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
+There is a wonderful ice-cream shop in centre urbain that contains N ice-creams, such that each ice-cream is represented by two numbers Ci and Hi denoting the number of calories and the happiness value, respectively.
 
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
+Amine wants to buy exactly K ice-creams such that the calories of the densest ice-cream (the one with most calories) are as minimal as possible. If there is more than one way to do that, you want to maximize the total happiness of the ice-creams you will buy, that is the sum of the happiness values of the chosen ice-creams.
 
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
+Input:
 
-Her data set is **only** composed of correct images and the symbol is always painted in black.
+The first line of the input contains a single integer T specifying the number of test cases.
 
-We define a correct image as an image that contains a correct plus or a correct minus.
+Each test case begins with a line containing two integers N and K (1≤K≤N≤10^5), in which N is the number of ice-creams in the shop, and K is the number of ice-creams you want to buy.
 
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
+Then a line follows containing N integers C1,⋯,CN (0≤Ci≤10^9), in which Ci is the number of calories in the ith ice-cream. Then a line follows containing N integers, H1,…,HN (0≤Hi≤10^9), in which Hi is the hapinnes value of the ith ice cream.
 
-  - A correct minus is defined as a horizontal line.
+Output:
 
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
+For each test case, print a single line containing two space-separated integers representing the calories of the densest ice-cream you will buy and the total happiness of the ice-creams you will buy, respectively.
 
+Remember that your goal is to buy KK ice-creams such that the calories of the densest ice-cream (the one with most calories) are as minimal as possible. If there is more than one way to do that, you want to maximize the total happiness of the ice-creams you will buy.
+ 
+Example:
 
-Nour lost the code of her image classification algorithm.
-
-Write an algorithm that classifies images from her data set.  
-
-## Input :
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
-
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
-
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
-
-## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
-
-## Example:
-Input :  
+Input:
 
 ```
-3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
+1
+5 3
+1 2 3 4 5
+5 4 3 2 1
 ```
 
-Output :  
+Output:
 
 ```
-PLUS
-MINUS
-MINUS
+3 12
 ```
