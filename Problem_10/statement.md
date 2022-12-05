@@ -43,7 +43,7 @@ For each test case, print the answer on a separate line.
 
 Print -1 if the given final value a cannot be obtained by performing an arbitrary number of cyclic shifts on each operation. Otherwise, print n non-negative integers d1,d2,…,dn (d[i] ≥ 0), where d[i] means that during the i-th operation the first i elements of the array were cyclic shifted to the right di times.
 
-If there are several possible answers, print the one where the total number of shifts is minimal (that is, the sum of d[i] values is the smallest). If there are several such answers, print any of them. 
+If there are several possible answers, print the one where the total number of shifts is minimal (that is, the sum of d[i] values is the smallest) and sort them in the ascending order.
 
 ## Example:
 Input :  
@@ -61,7 +61,7 @@ Input :
 Output :  
 
 ```
-0 1 1 2 0 4 
-0 0 1 
-0 1 2 0 2 5 6 2 
+0 0 1 1 2 4
+0 0 1
+0 0 1 2 2 2 5 6
 ```
