@@ -1,68 +1,35 @@
-# Problem A : Image classification
+# Problem C: Messi’s last world cup
+Since the start of the world cup, many people started analysing Messi’s performance especially after they knew it was his last world cup, many think that it is lower than his level in 2018, but others think that it is too early to judge him. They all agreed that if he ended this season with the same average number of goals as the last time, then there is no need to worry.
 
-## Statement:
-Image classification can be defined as the task of categorizing images into one or multiple predefined classes. Although the task of categorizing an image is instinctive and habitual to human, it is much more challenging for an automated system to recognize and classify images.
+Given four integers, N, M, X and Y representing his average number of goals per match in the last time, the number of goals he scored so far in the current season, the number of matches that were already played and the number of remaining matches respectively.
 
-Nour is passionate about artificial intelligence, and more specifically about image classification.
-She implemented a solution using machine learning to classify images of mathematic signs.
+What is the minimum number of goals he needs to score in the remaining matches to have at least the same average number of goals as 2018?
+ 
+ 
+Input:
+The first line of the input is the number of test cases T. Each test case consists of four integers N, M, X, and Y, where 0≤N,M,X,Y≤1000≤N,M,X,Y≤100.
 
-An image is represented as a matrix of pixels where each pixel is either painted in black (represented by '#') or white (represented by '.'). 
+Output:
 
-Her data set is **only** composed of correct images and the symbol is always painted in black.
+For each test case output a single line containing the minimum number of goals or −1 if Messi can't make it.
 
-We define a correct image as an image that contains a correct plus or a correct minus.
+Example:
 
-  - A correct plus is defined as two lines, one horizontal, one vertical, having the same size and intersecting in their middle. Their size is odd and strictly greater than one.
-
-  - A correct minus is defined as a horizontal line.
-
-<pre>
-........#.                            ..........                        ..........              
-....######                            ..#######.                        ..#....... 
-........#.  is not a correct image    ..........  is a correct minus    .###......  is a correct plus
-........#.                            ..........                        ..#....... 
-..........                            ..........                        .......... 
-</pre>
-
-
-Nour lost the code of her image classification algorithm.
-
-Write an algorithm that classifies images from her data set.  
-
-## Input :
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
-
-The first line contains two integers **n**, **m** (1≤n, m≤100) — where n and m are the image's height and width.
-
-Each of the next n lines contains m characters. They describe the image. If a character on a line equals ".", then the corresponding pixel is white and if the character equals "#", then the pixel is black.
-
-## Output :
-For each test case, output PLUS if the image contains a plus or MINUS if the image contains a minus.  
-
-## Example:
-Input :  
+Input:
 
 ```
-3
-3 3
-.#.
-###
-.#.
-3 4
-....
-.##.
-....
-4 4
-....
-....
-.#..
-....
+4
+1 1 37 1
+5 1 1 37
+1 0 1 0
+2 6 1 2
 ```
 
-Output :  
+Output:
 
 ```
-PLUS
-MINUS
-MINUS
+37
+189
+-1
+0
 ```
