@@ -80,10 +80,10 @@ int main() {
         if (flag)
             cout << "-1\n"; 
         else {
-            reverse(all(ans)); 
+            int sum = 0;
             for(auto u : ans)
-                cout << u << " "; 
-            cout << "\n";
+                sum += u; 
+            cout << sum << "\n"; 
         }
 
     }
