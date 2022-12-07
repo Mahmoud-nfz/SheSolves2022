@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int t,n,f,c,k,d; cin >> t;
+    long long t,n,f,c,k,d; cin >> t;
     while(t--) {
         cin >> n >> f >> c >>k;
         d = 1;
