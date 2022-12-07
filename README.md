@@ -25,15 +25,15 @@ Each problem setter should include the following files in his problem folder for
 
 ## Problem Setters
 
-* Mahmoud Nefzi
 * Med Ali Ouachani
 * Rami Zouari
-* Yassine
-* Idris
+* Yassine Dhaouadi
+* Idris Saddi
 * Mahdi Chaaabne
 * Mehdi Ben Salha
-* Adam
-* Raed
+* Adam Fendri
+* Raed Addala
+* Mahmoud Nefzi
 
 ## Progress 
 
