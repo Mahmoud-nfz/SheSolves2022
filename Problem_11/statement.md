@@ -11,18 +11,18 @@ Each oven needs **k** time to cook **c** Baklawas.
 
 **NOTE:**
 
-->The time needed to take the cooked Baklawas out of the oven and start cooking the next c Baklawas **is ignored** : Mister Hatem is so quick.
+- The time needed to take the cooked Baklawas out of the oven and start cooking the next c Baklawas **is ignored** : Mister Hatem is so quick.
 
-->All Baklawas are ready at the same moment **k** time after they started baking.
+- All Baklawas are ready at the same moment **k** time after they started baking.
 
 ## Input :
 The first line contains a single integer **t** ( 1 <= t <= 1000) — the number of test cases. Then the test cases follow.
 
-Each test case consists of one line which contains  integers **n**, **f**, **c**, **k**( 0 < k <= f <=1'000'000 , 0 <   ) — where : 
-    n is the number of ordered Baklawas.
-    f is the available time to prepare the order.
-    c is the capacity of one oven.
-    k is the time to cook c Baklawas in one oven.
+Each test case consists of one line which contains  integers **n**, **f**, **c**, **k**( 1 <= n, f, c, k <=10<sup>5</sup> ,  k <= f   ) — where : 
+- n is the number of ordered Baklawas.
+- f is the available time to prepare the order.
+- c is the capacity of one oven.
+- k is the time to cook c Baklawas in one oven.
 ## Output :
 For each test case, output the minimum number of ovens that satisfies his needs.  
 
@@ -30,9 +30,14 @@ For each test case, output the minimum number of ovens that satisfies his needs.
 Input :  
 
 ```
+2
+10 10 1 1
+12 4 3 2
 ```
 
 Output :  
 
 ```
+1
+2
 ```
