@@ -10,58 +10,40 @@ As one of her closest friends you are asked to help her writing this program.
 **The "IMO" Problem Statement :** 
 
 Let $1 \leq a_{0} \lt a_{1} \lt ... \lt a_{n}$  a finite sequence of positive integers.
-Prove that there exists a unique integer $n \geq 1$ such that :
+Prove that there exists an integer $k \geq 1$ such that :
 
-$a_{n} \lt {a_{0}+a_{1}+...+a_{n} \over k} \leq a_{n+1}$
-
-To make the problem easier, we assume that the sequence $a_{0}, a_{1}, ... , a_{n}$ follows arithmetic sequence with reason 1 :  
-$a_{1} = a_{0}+1$
-
-$a_{2} = a_{1}+1$ 
-
-...  
-
-$a_{n+1} = a_{n}+1$
+$a_{k} \lt {a_{0}+a_{1}+...+a_{k} \over k} \leq a_{k+1}$
 
 
 ##  Input :
 
 The first line contains a single integer **T** (1≤T≤100) — the number of test cases.
 
-Each test case consists of one line containing two integers **$a_{0}$** and **$a_{n}$** (1 $\leq a_{0} \lt a_{n} \leq 10^7$) — where $a_{0}$ is the first number in the sequence and $a_{n}$ is the last one.
+The first line of each test case contains an integer **$N$** (1 $\leq N \leq 10^5$) — where $N$ is the length of the sequence.
+
+The second line contains **$N$** integers **$a_{i}$** (1 $\leq a_{i} \leq 10^5$) describing the sequence.
 
 ##  Output :
 
-For each test case, print one integer — the unique integer **k** mentionned in the **“IMO” Problem Statement** if **k** exists, if it doesn't then print **NO** .
+For each test case, print one integer — the integer **k** mentionned in the **“IMO” Problem Statement** if **k** exists, if it doesn't then print **-1** .
 
 ##  Example:
 
 Input :
 
 ```
-
+2
 4
-
-1 6
-
-4 9
-
-4754 97535
-
-56332 67477864
-
+1 2 9 10
+6
+4 5 6 7 8 9
 ```
 
 Output :
 
 ```
-
-3
-
-4
-
-48652
-
-NO
-
+1
+-1
 ```
+
+In the first case k = 1, **$a_{k}$** = 2
