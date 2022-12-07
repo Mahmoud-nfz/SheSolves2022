@@ -1,4 +1,4 @@
-# Problem 10 : Ironian War
+# Problem J : Ironian War
 
 ## Statement:
 The Ironian kingdom has entered a war with the dwarfs, the emperor was afraid to lose it, that's why he summoned the skilled wizard "IronByte" from the wizards land to try the reincreate the legendary slayer "Gaya The Dragon Champion". To reinsert the legendary slayer IronByte needs to gather some ancient gems, those gems are stored in a fabled cave, this cave is protected by the legendary guardian Zoe. She sets a password to the cave to protect it, that's why he needs your help to crack it.
