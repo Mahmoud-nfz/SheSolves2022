@@ -53,9 +53,9 @@ Each problem setter should include the following files in his problem folder for
 | 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      x         |
 | 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      x         |
-| 6    |             palindrome              |    Rami    |         X         |     X       |                                |      x         |
+| 6    |   Raed and number transformation   | Raed        |         YES         |     X       |                                |      x         |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
 | 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
-| 9    |         Detective Conan Nemesis         |    Raed    |         Yes         |    Yes      |        Doesn't exist                        |      x         |
+| 9    |         Detective Conan Nemesis         |    Raed    |         Yes         |    Yes      |        Doesn't exist         |      x         |
 | 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            NO                 |      x         |
 | 11   |          Hatem's Secret Recipe           |    Raed    |        Yes        |     X       |                                |      x         |
