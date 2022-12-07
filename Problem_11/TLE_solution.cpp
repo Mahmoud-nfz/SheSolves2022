@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    int t; cin >> t;
+    int t,n,f,c,k,d; cin >> t;
     while(t--) {
-
-        int n, m; cin >> n >> m;
-
+        cin >> n >> f >> c >>k;
+        d = 1;
+        while( ( (n+d*c-1)/(d*c) ) * k > f) d++;
+        cout << d << endl;
     }
     return 0;
 }
