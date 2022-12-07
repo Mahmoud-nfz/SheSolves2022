@@ -2,11 +2,14 @@
 using namespace std;
 
 int main() {
-    int t; cin >> t;
-    while(t--) {
+    double Xc,Yc,Sc;
+    double Xk,Yk,Sk;
+    double Xh,Yh;
+    cin >> Xc >> Yc >> Sc;
+    cin >> Xk >> Yk >> Sk;
+    cin >> Xh >> Yh;
+    if( sqrt((Xk-Xh)*(Xk-Xh)+(Yk-Yh)*(Yk-Yh))/ Sk >=  sqrt((Xc-Xh)*(Xc-Xh)+(Yc-Yh)*(Yc-Yh))/ Sc ) cout << "YES";
+    else cout << "NO";
 
-        int n, m; cin >> n >> m;
-
-    }
     return 0;
 }
