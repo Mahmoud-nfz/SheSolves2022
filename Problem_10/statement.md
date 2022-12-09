@@ -7,7 +7,9 @@ Zoe got an array a of numbers from 1 to n, where **a[i] = i**, (*i in [1..n]*).
 
 He performed n operations sequentially. In the end, he received a new state of the array.
 
-At the i-th operation, Zoe chose the first i elements of the array and cyclically shifted them to the right an arbitrary number of times (elements with indexes i+1 and more remain in their places). One cyclic shift to the right is such a transformation that the array a=[a1,a2,…,an] becomes equal to the array a=[ai,a1,a2,…,ai−2,ai−1,ai+1,ai+2,…,an].
+At the i-th operation, Zoe chose the first i elements of the array and cyclically shifted them to the right an arbitrary number of times (elements with indexes i+1 and more remain in their places).
+
+One cyclic shift to the right is such a transformation that the array a=[a1,a2,…,an] becomes equal to the array a=[ai,a1,a2,…,ai−2,ai−1,ai+1,ai+2,…,an].
 
 For example, if a=[5,4,2,1,3] and i=3 (that is, this is the third operation), then as a result of this operation, he could get any of these three arrays:
 
@@ -27,14 +29,14 @@ i = 6: let's say Zoe decided to make 4 cyclic shifts, the array will look like a
 
 You are given a final array state a after all n operations. Determine if there is a way to perform the operation that produces this result. In this case, if an answer exists, print the numbers of cyclical shifts that occurred during each of the n operations.
 
-The cave password will be **the toal number** of those cyclical shifts.
+The cave password will be **the total number** of those cyclical shifts.
 
 ## Input :
 The first line of the input contains an integer **T** (1 ≤ T ≤ 500) — the number of test cases in the test.
 
 In each test case:
 
-The first line of the test case contains one integer **n** (2 ≤ n ≤ $10^3$) — the length of the array a.
+The first line of the test case contains one integer **n** (2 ≤ n ≤ 10^3) — the length of the array a.
 
 The next line contains the final state of the array a: n integers a[1],a[2],…,a[n] (1 ≤ a[i] ≤ n) are written. All **a[i]** are distinct.
 
