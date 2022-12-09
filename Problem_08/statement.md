@@ -39,8 +39,7 @@ Output :
 5
 ```
 
-In the second test case one way to color the ribbon is as follows :
+In the second test case one way to color the ribbon only using 3 colors is as follows :
 ```
 1 2 1 9 2 1
 ```
-Here we only used 3 colors : color 1, color 2 and color 9.
