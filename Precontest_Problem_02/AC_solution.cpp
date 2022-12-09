@@ -15,8 +15,7 @@ int main() {
         bool found = false;
         for (ll k = 1; k < size-1; ++k) {
             sum += sequence[k];
-            long double sumDivk = (long double)sum/k;
-            if((sequence[k] < sumDivk) && (sumDivk <= sequence[k+1])){
+            if((sequence[k]*k < sum) && (sum <= k*sequence[k+1])){
                 cout << k ;
                 found = true;
                 break;
