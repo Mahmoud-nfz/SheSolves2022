@@ -47,4 +47,5 @@ Output :
 ```
 
 In the first case k = 1, **$a_{k}$** = 2
+
 In the second case k = 3, **$a_{k}$** = 7
