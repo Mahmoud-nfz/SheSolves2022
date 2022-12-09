@@ -9,7 +9,7 @@ Determine if Ines can reduce the array using the operation provided to a single 
 ## Input :
 The first line contains a single integer **T** (1 ≤ T ≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
 
-The first line contains two integers **n**, **k** (1 ≤n, k≤ 10^5 ) — where n is the length of the array and k is the number described above.
+The first line contains two integers **n**, **k** (1 ≤ n, k ≤ 10^5 ) — where n is the length of the array and k is the number described above.
 
 The second line contains n integers ai (1 ≤ ai ≤ 10^3) describing the array a.
 
