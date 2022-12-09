@@ -26,8 +26,6 @@ Input :
 1 2 -1 9 -1 1
 2
 1 1
-8
-1 3 -1 5 -1 6 8 -1
 ```
 
 Output :  
@@ -36,7 +34,6 @@ Output :
 1
 3
 -1
-5
 ```
 
 In the second test case one way to color the ribbon only using 3 colors is as follows :
