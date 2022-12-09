@@ -55,7 +55,7 @@ int main() {
             cout << sequenceSize << nl;
             ll lastRandomNumber = 1;
             for (int j = 0; j < sequenceSize-1; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
-                lastRandomNumber = randomInt(lastRandomNumber, 99999);
+                lastRandomNumber = randomInt(lastRandomNumber+1, 99999);
                 cout << lastRandomNumber << ' '; //OUTPUTING EACH SEQUENCE NUMBER
             }
             cout << 100000 << nl;//OUTPUTING LAST SEQUENCE NUMBER
