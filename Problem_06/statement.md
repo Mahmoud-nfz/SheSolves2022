@@ -11,9 +11,9 @@ The Game rules are as follows :
 
 -In each operation He can:
 
-    -*add one stick to one digit of the string so it becomes a new **valid** digit*
+    -add one stick to one digit of the string so it becomes a new valid digit.
 
-    -*remove one stick from one digit of the string so it becomes a new **valid** digit*
+    -remove one stick from one digit of the string so it becomes a new valid digit.
 
 -He can perform as much operations as possible.
 
