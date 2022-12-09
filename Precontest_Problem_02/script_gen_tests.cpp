@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
+
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
@@ -45,12 +47,17 @@ int main() {
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
-        for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+        
+        int testCases = randomInt(1, 100);
+        cout << testCases << nl; //OUTPUTING THE NUMBER OF TESTCASES        
+        for (int i = 0; i < testCases; i++) {
+            int sequenceSize = randomInt(1, 100000);
+            ll lastRandomNumber = 1;
+            for (int j = 0; j < sequenceSize-1; j++) {
+                lastRandomNumber = randomInt(lastRandomNumber, 99999);
+                cout << lastRandomNumber << ' ';
+            }
+            cout << 100000 << nl;
         }
-    
-}
+    }
 }
