@@ -6,8 +6,7 @@ However, his partner is going on a family vacation for a whole month and fearful
 
 Mister Hatem wants to know the minimum number of oven necessary to prepare the order before **f** time.
 
-Hatem has access to a lot of ovens that he can set up to match any order he gets where each oven has a capacity **c**. All ovens are set beforehand.
-Each oven needs **k** time to cook **c** Baklawas.
+Hatem has access to a lot of ovens that he can set up to match any order he gets where each oven has a capacity **c**. All ovens are installed beforehand. Each oven needs **k** time to cook **c** Baklawas.
 
 **NOTE:**
 
@@ -18,7 +17,7 @@ Each oven needs **k** time to cook **c** Baklawas.
 ## Input :
 The first line contains a single integer **t** ( 1 <= t <= 1000) — the number of test cases. Then the test cases follow.
 
-Each test case consists of one line which contains  integers **n**, **f**, **c**, **k**( 1 <= n, f, c, k <=10<sup>9</sup> ,  k <= f   ) — where : 
+Each test case consists of one line which contains  integers **n**, **f**, **c**, **k**( 1 <= n, f, c, k <= 10^9 ,  k <= f   ) — where : 
 - n is the number of ordered Baklawas.
 - f is the available time to prepare the order.
 - c is the capacity of one oven.
