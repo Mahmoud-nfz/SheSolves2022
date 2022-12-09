@@ -47,9 +47,9 @@ int main() {
         // 1 <= a,b,c <= 10,000,000
         
         int testCases = randomInt(1, 100);
-        cout << testCases << nl;
+        cout << testCases << endl;
         for (int i = 0; i < testCases; i++) {
-            cout << randomInt(1,1000) << nl;
+            cout << randomInt(1,1000) << endl;
         }
     
     }
