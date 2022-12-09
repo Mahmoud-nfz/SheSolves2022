@@ -8,7 +8,7 @@ Help them find out the topic they will study first.
 ## Input :
 The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
 
-The first line of every test case contains a single integer **n** (1≤N≤10<sup>5</sup>).
+The first line of every test case contains a single integer **n** (1≤N≤10 ^5^).
 The second line contains **n** caracters c<sub>i</sub>, the name of the subject the i-th member voted on. (c<sub>i</sub> is an uppercase letter between 'A' and 'Z')
 
 ## Output :
