@@ -7,7 +7,7 @@ What is the minimum number of goals he needs to score in the remaining matches t
  
  
 Input:
-The first line of the input is the number of test cases T. Each test case consists of four integers N, M, X, and Y, where 0≤N,M,X,Y≤1000 and X+Y>0 .
+The first line of the input is the number of test cases T. Each test case consists of four integers N, M, X, and Y, where 0 ≤ N,M,X,Y ≤ 1000 and X+Y > 0 .
 
 Output:
 
