@@ -16,17 +16,31 @@ Notes :
 - Hiba and Fatma are new to the game so they sometimes make a mistake (for example hiba plays twice in a row), in that case you output -1
 	
 
-<pre>
-O..                                                         OX.  			XOX
-O.X it is not correct (-1) (because Hiba(X) always start)   O.X Fatma wins (2)          XXO it is a tie (0) 
-O.X                                                         O.X                   	OXO
-                                                        
+Some Examples :
 
-</pre>
+```
+O..
+O.X
+O.X
+
+it is not correct (-1) (because Hiba(X) always start)
+
+OX.
+O.X
+O.X
+
+Fatma wins (2)
+
+XOX
+XXO
+OXO
+
+it is a tie
+```
  
 
 ## Input :
-The first line contains a single integer **T** (1≤T≤10<sup>5</sup>) — the number of test cases. Then the test cases follow. Each test case consists of 3 lines.
+The first line contains a single integer **T** (1 ≤ T ≤ 10^5) — the number of test cases. Then the test cases follow. Each test case consists of 3 lines.
 
 The 3 lines represent the paper given by the 2 sisters (the . means that it is empty)
 
