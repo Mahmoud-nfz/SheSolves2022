@@ -51,14 +51,14 @@ int main() {
         int testCases = randomInt(1, 100);
         cout << testCases << nl; //OUTPUTING THE NUMBER OF TESTCASES        
         for (int i = 0; i < testCases; i++) {
-            int sequenceSize = randomInt(1, 100000);
+            int sequenceSize = randomInt(1, 100000); //OUTPUTING THE SEQUENCE SIZE
             cout << sequenceSize << nl;
             ll lastRandomNumber = 1;
-            for (int j = 0; j < sequenceSize-1; j++) {
+            for (int j = 0; j < sequenceSize-1; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
                 lastRandomNumber = randomInt(lastRandomNumber, 99999);
-                cout << lastRandomNumber << ' ';
+                cout << lastRandomNumber << ' '; //OUTPUTING EACH SEQUENCE NUMBER
             }
-            cout << 100000 << nl;
+            cout << 100000 << nl;//OUTPUTING LAST SEQUENCE NUMBER
         }
     }
 }
