@@ -13,16 +13,16 @@ Let $1 ≤ a0 < ... < an  a finite sequence of positive integers.
 Prove that there exists an integer k >= 1 such that :
 
 ![Screenshot 2022-12-10 at 00-15-55 Free Online LaTeX Editors and Equation Writer Commontools org](https://user-images.githubusercontent.com/65515933/206810714-b64b12fc-6643-4424-93b4-15057f0cfe29.png)
-
+ak < (a0+a1+ ... + ak) / k ≤ a(k+1)
 
 
 ##  Input :
 
 The first line contains a single integer **T** (1 ≤ T ≤ 100) — the number of test cases.
 
-The first line of each test case contains an integer **N** (1 ≤ N ≤ 10^5$) — where $N$ is the length of the sequence.
+The first line of each test case contains an integer **N** (1 ≤ N ≤ 10^5) — where N is the length of the sequence.
 
-The second line contains **N** integers **ai** (1 ≤ ai ≤ 10^5) describing the sequence.
+The second line contains **N** integers **ai** (1 ≤ ai ≤ 10^4) describing the sequence.
 
 ##  Output :
 
