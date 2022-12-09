@@ -3,7 +3,9 @@ using namespace std;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-int randomInt(int l, int r) { return uniform_int_distribution<int>(l, r)(rng); }
+int randomInt(int l, int r) {
+    return uniform_int_distribution<int>(l, r)(rng);
+}
 
 string randomString(int n, char l, char r) {
     int len = r - l + 1;
@@ -37,20 +39,29 @@ int main() {
         testNumber += testNumberStr;
         ss << "test" << testNumber << ".in";
         delete[] testNumberStr;
-
         char fileName[20];
         ss >> fileName;
         freopen(fileName, "w", stdout);
-
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
         int t = randomInt(1, 4000);
         int a;
+        char grid[3]={'X','O','.'};
+        cout<<t<<endl;
         for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+            for(int j=0;j<3;j++)
+            {
+                for(int k=0;k<3;k++)
+                {
+                    a = randomInt(1, 3);
+                    cout << grid[a-1] ;
+                }
+             cout<<endl;
+            }
+            cout<<endl;
+
         }
-    
+
 }
 }
