@@ -26,7 +26,7 @@ The first line contains a single integer **T** (1≤T≤100) — the number of t
 
 The first line of each test case contains an integer **n**, the number of characters in the string A.
 
-The first line of each test case contains string A (number of digits in string A doesn't exceed 10<sup>5</sup>).
+The first line of each test case contains string A (number of digits in string A doesn't exceed 10^5).
 
 The second line of each test case contains string B (number of digits in string B is the same as the number of digits in string A).
 
