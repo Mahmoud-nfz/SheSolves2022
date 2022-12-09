@@ -52,6 +52,7 @@ int main() {
         cout << testCases << nl; //OUTPUTING THE NUMBER OF TESTCASES        
         for (int i = 0; i < testCases; i++) {
             int sequenceSize = randomInt(1, 100000);
+            cout << sequenceSize << nl;
             ll lastRandomNumber = 1;
             for (int j = 0; j < sequenceSize-1; j++) {
                 lastRandomNumber = randomInt(lastRandomNumber, 99999);
