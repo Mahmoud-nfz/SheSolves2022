@@ -2,18 +2,24 @@
 
 ## Statement:
 
-Raed has a string A consisting of many digits that he wants to transform into another string B of digits.
+Raed wants to play a game. The Game consists of transforming a string A consisting of many digits into another string B of digits.
 
 These digits are represented as follows :
 ![clock_digits](https://user-images.githubusercontent.com/65515933/206281361-61b1892d-3533-40bc-ac26-cbc9f0c18e89.jpg)
 
-He wants to perform the transformation in the following way :
-He can execute this operation as many times as he wants :
+The Game rules are as follows :
 
-- Take a digit x in its analog representation and add or remove one stick from it to obtain a new digit y, but on the condition that y is a valid digit too. ( For example 1 can be transformed into 7 and vice versa. On the other hand 4 can't be transformed into any digit.)
+-In each operation He can:
 
-Help Raed find out whether he can transform string A into string B using the rules described above
+    -*add one stick to one digit of the string so it becomes a new **valid** digit*
 
+    -*remove one stick from one digit of the string so it becomes a new **valid** digit*
+
+-He can perform as much operations as possible.
+
+Raed doesn't play a game until he is sure that he can win.
+
+Help Raed find out whether he should play the game or not.
 
 ## Input :
 The first line contains a single integer **T** (1≤T≤100) — the number of test cases. Then the test cases follow. Each test case consists of one line.
