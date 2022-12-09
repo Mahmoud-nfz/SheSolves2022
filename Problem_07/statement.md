@@ -14,15 +14,6 @@ Each line contains the description of a wall, the doors are marked with '.' and 
 - The 1st cell of the 1st wall is always a door.
 - Mona has to get to the end wich is the last cell of the last wall.
 - The last cell of the last wall is always a door.
-<pre>
-.######
-######.
-#####.#
-#####.#
-#.#####
-.######
-######.
-</pre>
 
 Your task is to find out the minimum number of steps she has to take in order to get to the end. (Suppose that moving horizontally by a single cell counts as one move and moving vertically doesn't count as a move)
 
