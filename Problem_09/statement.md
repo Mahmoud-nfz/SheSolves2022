@@ -10,20 +10,21 @@ The roof is an infinte 2d plan with 2 axes X and Y.
 **NOTE:** Conan is tired from climbing all the way to the roof so he can't run faster than Kaitou Kid.
 
 ## Input :
-The first line contains three reals **Xc**, **Yc** and **Sc** (0 <= Xc,Yc <= 10E308, **0 < Sc**) — the position and speed of Conan.
+The first line contains three integers **Xc**, **Yc** and **Sc** (0 <= Xc,Yc <= 10^5, **0 < Sc**) — the position and speed of Conan.
 
-The second line contains three reals **Xk**, **Yk** and **Sk** (0 <= Xk,Yk <= 10E308, **0 < Sk**) — the position and speed of Kaitou.
+The second line contains three integers **Xk**, **Yk** and **Sk** (0 <= Xk,Yk <= 10^5, **0 < Sk**) — the position and speed of Kaitou.
 
-The last line contains two reals **Xh** and **Yh** (0 <= Xh,Yh <= 10E308) — the position of the Helicopter.
-**NOTE:** *1-* **Sc <= Sk**
-          *2-* If you are using C++, Use double or long double instead of float and %lf and %LF instead of %f.
+The last line contains two integers **Xh** and **Yh** (0 <= Xh,Yh <= 10^5) — the position of the Helicopter.
+
+**NOTE:** **Sc <= Sk**
+
 ## Output :
-Print *YES* if he can catch him. Otherwise, print *NO*.
+Print "YES" (all uppercase) if he can catch him. Otherwise, print "NO" (all uppercase).
 ## Example:
 Input :  
 
 ```
-0.05 15 5
+0 15 5
 19   20 10
 5  5
 ```
