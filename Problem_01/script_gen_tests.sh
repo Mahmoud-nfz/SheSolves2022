@@ -5,6 +5,11 @@ mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 int randomInt(int l, int r) { return uniform_int_distribution<int>(l, r)(rng); }
 
+char randomChar() {
+    int len = 'Z' - 'A' + 1;   
+    return char('A' + randomInt(0, len - 1));
+}
+
 string randomString(int n, char l, char r) {
     int len = r - l + 1;
     string res;
@@ -45,11 +50,16 @@ int main() {
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
-        for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+        
+        int testCases = randomInt(1, 100);
+        cout << testCases << nl;      
+        for (int i = 0; i < testCases; i++) {
+            int voteSize = randomInt(1, 100000);
+            cout << voteSize << nl;
+            for (int j = 0; j < voteSize-1; j++) {
+                cout << randomChar() << ' ';
+            }
+            cout << randomChar() << nl;
         }
     
 }
