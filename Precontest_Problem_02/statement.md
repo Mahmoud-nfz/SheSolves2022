@@ -9,19 +9,20 @@ As one of her closest friends you are asked to help her writing this program.
 
 **The "IMO" Problem Statement :** 
 
-Let $1 \leq a_{0} \lt a_{1} \lt ... \lt a_{n}$  a finite sequence of positive integers.
-Prove that there exists an integer $k \geq 1$ such that :
+Let $1 ≤ a0 < ... < an  a finite sequence of positive integers.
+Prove that there exists an integer k >= 1 such that :
 
-$a_{k} \lt {a_{0}+a_{1}+...+a_{k} \over k} \leq a_{k+1}$
+![Screenshot 2022-12-10 at 00-15-55 Free Online LaTeX Editors and Equation Writer Commontools org](https://user-images.githubusercontent.com/65515933/206810714-b64b12fc-6643-4424-93b4-15057f0cfe29.png)
+
 
 
 ##  Input :
 
-The first line contains a single integer **T** (1≤T≤100) — the number of test cases.
+The first line contains a single integer **T** (1 ≤ T ≤ 100) — the number of test cases.
 
-The first line of each test case contains an integer **$N$** (1 $\leq N \leq 10^5$) — where $N$ is the length of the sequence.
+The first line of each test case contains an integer **N** (1 ≤ N ≤ 10^5$) — where $N$ is the length of the sequence.
 
-The second line contains **$N$** integers **$a_{i}$** (1 $\leq a_{i} \leq 10^5$) describing the sequence.
+The second line contains **N** integers **ai** (1 ≤ ai ≤ 10^5) describing the sequence.
 
 ##  Output :
 
@@ -46,6 +47,6 @@ Output :
 3
 ```
 
-In the first case k = 1, **$a_{k}$** = 2
+In the first case k = 1, **ak** = 2
 
-In the second case k = 3, **$a_{k}$** = 7
+In the second case k = 3, **ak** = 7
