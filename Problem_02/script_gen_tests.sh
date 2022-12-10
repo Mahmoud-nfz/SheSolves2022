@@ -45,11 +45,16 @@ int main() {
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
+        int t = randomInt(1, 100);
+        int n,k;
         for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+            n = randomInt(1, 100'000);
+            k = randomInt(1, 100'000);
+            for(int j = 0 ; j < n ; j ++){
+                int x = randomInt(1, 1000) ;
+                cout << x << " " ;
+            }
+            cout << endl ;
         }
     
 }
