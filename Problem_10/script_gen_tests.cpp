@@ -45,12 +45,30 @@ int main() {
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
+        int t = randomInt(1, 500);
+        cout << t << endl;
         for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+            int a = randomInt(1, 1000);
+            cout << a << endl;
+            int k=1;
+            vector<int> tab;
+            std::vector<int>::iterator it;
+            tab.push_back(randomInt(1,a));
+            while(k < a ){
+                int randomTableElement = randomInt(1,a);
+                it =std::find(tab.begin(), tab.end(), randomTableElement);
+                while (it != tab.end()){
+                    randomTableElement = randomInt(1,a);
+                    it =std::find(tab.begin(), tab.end(), randomTableElement);
+                }
+                tab.push_back(randomTableElement);
+                k++;
+            }
+            for (int j = 0; j < tab.size()-1; ++j) {
+                cout << tab[j] << ' ';
+            }
+            cout << tab[tab.size()-1] << endl;
         }
     
-}
+    }
 }
