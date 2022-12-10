@@ -52,14 +52,14 @@ int main() {
         // 1 <= a,b,c <= 10,000,000
         
         int testCases = randomInt(1, 100);
-        cout << testCases << nl;      
+        cout << testCases << endl;      
         for (int i = 0; i < testCases; i++) {
             int voteSize = randomInt(1, 100000);
-            cout << voteSize << nl;
+            cout << voteSize << endl;
             for (int j = 0; j < voteSize-1; j++) {
                 cout << randomChar() << ' ';
             }
-            cout << randomChar() << nl;
+            cout << randomChar() << endl;
         }
     
 }
