@@ -42,15 +42,12 @@ int main() {
         ss >> fileName;
         freopen(fileName, "w", stdout);
 
-        // ------------------------------------------ CHANGE THIS
-        // 1 <= t <= 4000
-        // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
-        for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
-        }
-    
+        // ------------------------------------------ CHANGED
+        int Xk = randomInt(0, 100'000),Yk = randomInt(0, 100'000),Sk = randomInt(1, 1'000'000'000) ;
+        int Xc = randomInt(0, 100'000),Yc = randomInt(0, 100'000),Sc = randomInt(1, Sk);
+        int Xh = randomInt(0, 100'000),Yh = randomInt(0, 100'000);
+        cout << Xc << Yc << Sc;
+        cout << Xk << Yk << Sk;
+        cout << Xh << Yh;
 }
 }
