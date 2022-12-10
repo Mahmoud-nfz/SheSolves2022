@@ -45,12 +45,34 @@ int main() {
         // ------------------------------------------ CHANGE THIS
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
+        int t = randomInt(1, 100);
         for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+            int n, m;
+            char tab[] = {'.','#'};
+            n = randomInt(1, 100);
+            m = randomInt(1, 100);
+            cout << n << ' ' << m << endl;
+            for(int j=0; j<n;j++){
+                bool point=false;
+                for(int k=0; k<m-1;k++){
+                    if(!point){
+                        if(randomInt(1, 2) == 1){
+                            point=true;
+                            cout << tab[0] ;
+                        }else{
+                            cout << tab[1] ;
+                        }
+                    }else{
+                        cout << tab[1] ;
+                    }
+                }
+                if(!point){
+                    cout << tab[0] ;
+                }else{
+                    cout << tab[1] ;
+                }
+                cout << endl;
+            }
         }
-    
-}
+    }
 }
