@@ -42,7 +42,7 @@ int main()
         char fileName[20];
         ss >> fileName;
 
-        //freopen(fileName, "w", stdout);
+        freopen(fileName, "w", stdout);
 
         int t = randomInt(1, 100);
         for (int i = 0; i < t; i++)
