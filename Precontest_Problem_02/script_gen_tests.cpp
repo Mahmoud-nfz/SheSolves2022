@@ -48,7 +48,7 @@ int main() {
         int testCases = randomInt(1, 100);
         cout << testCases << endl; //OUTPUTING THE NUMBER OF TESTCASES        
         for (int i = 0; i < testCases; i++) {
-            int sequenceSize = randomInt(1, 100000); //OUTPUTING THE SEQUENCE SIZE
+            int sequenceSize = randomInt(1, 1000); //OUTPUTING THE SEQUENCE SIZE
             cout << sequenceSize << endl;
             int lastRandomNumber = 1;
             for (int j = 0; j < sequenceSize-1; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
