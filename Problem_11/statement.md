@@ -1,8 +1,7 @@
 # Problem K : Hatem's secret recipe
 
 ## Statement:
-Hatem has a well-known Baklawa Shop. This is due to his great attention to quality and for never being late when it comes to orders. In fact, he and his partner had devised a recipe that made their Baklawas irresistible.
-However, his partner is going on a family vacation for a whole month and fearful of someone stealing his recipe Hatem chooses to do all the work by himself. And so he needs to set the ovens the night.
+Hatem has a well-known Baklawa Shop. This is due to his great attention to quality and for never being late when it comes to orders. In fact, he and his partner had devised a recipe that made their Baklawas irresistible. However, his partner is going on a family vacation for a whole month and fearful of someone stealing his recipe Hatem chooses to do all the work by himself. And so he needs to set the ovens the night.
 
 Mister Hatem wants to know the minimum number of oven necessary to prepare the order before **f** time.
 
