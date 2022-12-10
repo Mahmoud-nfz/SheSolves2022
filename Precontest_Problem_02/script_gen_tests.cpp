@@ -51,11 +51,10 @@ int main() {
             int sequenceSize = randomInt(1, 100000); //OUTPUTING THE SEQUENCE SIZE
             cout << sequenceSize << endl;
             int lastRandomNumber = 1;
-            for (int j = 0; j < sequenceSize-1; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
+            for (int j = 0; j < sequenceSize; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
                 lastRandomNumber = randomInt(lastRandomNumber+1, lastRandomNumber+10);
                 cout << lastRandomNumber << ' '; //OUTPUTING EACH SEQUENCE NUMBER
             }
-            cout << 100000 << endl;//OUTPUTING LAST SEQUENCE NUMBER
         }
     }
 }
