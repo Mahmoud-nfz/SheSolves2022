@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define ll long long
 using namespace std;
 
 
@@ -49,16 +48,16 @@ int main() {
         // 1 <= a,b,c <= 10,000,000
         
         int testCases = randomInt(1, 100);
-        cout << testCases << nl; //OUTPUTING THE NUMBER OF TESTCASES        
+        cout << testCases << endl; //OUTPUTING THE NUMBER OF TESTCASES        
         for (int i = 0; i < testCases; i++) {
             int sequenceSize = randomInt(1, 100000); //OUTPUTING THE SEQUENCE SIZE
-            cout << sequenceSize << nl;
-            ll lastRandomNumber = 1;
+            cout << sequenceSize << endl;
+            int lastRandomNumber = 1;
             for (int j = 0; j < sequenceSize-1; j++) { //FOR LOOP TO OUTPUT THE SEQUENCE
-                lastRandomNumber = randomInt(lastRandomNumber+1, 99999);
+                lastRandomNumber = randomInt(lastRandomNumber+1, lastRandomNumber+10);
                 cout << lastRandomNumber << ' '; //OUTPUTING EACH SEQUENCE NUMBER
             }
-            cout << 100000 << nl;//OUTPUTING LAST SEQUENCE NUMBER
+            cout << 100000 << endl;//OUTPUTING LAST SEQUENCE NUMBER
         }
     }
 }
