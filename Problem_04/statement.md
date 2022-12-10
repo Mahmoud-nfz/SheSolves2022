@@ -6,7 +6,7 @@ Amine wants to buy exactly K ice-creams such that the calories of the densest ic
 
 Input:
 
-The first line of the input contains a single integer T specifying the number of test cases.
+The first line of the input contains a single integer T specifying the number of test cases (1 ≤ T ≤100).
 
 Each test case begins with a line containing two integers N and K (1 ≤ K ≤ N ≤ 10^5), in which N is the number of ice-creams in the shop, and K is the number of ice-creams you want to buy.
 
