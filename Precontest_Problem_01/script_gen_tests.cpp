@@ -42,9 +42,7 @@ int main() {
         ss >> fileName;
         freopen(fileName, "w", stdout);
 
-        // ------------------------------------------ CHANGE THIS
-        // 1 <= t <= 4000
-        // 1 <= a,b,c <= 10,000,000
+        // ------------------------------------------ ALREADY DONE ! DON'T CHANGE ANYTHING
         
         int testCases = randomInt(1, 100);
         cout << testCases << endl;
