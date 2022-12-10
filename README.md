@@ -56,6 +56,6 @@ Each problem setter should include the following files in his problem folder for
 | 6    |   Raed and number transformation   | Raed        |         YES         |    YES       |                                |      YES        |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
 | 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
-| 9    |         Detective Conan Nemesis         |    Raed    |         Yes         |    Yes      |        Doesn't exist         |      x         |
+| 9    |         Detective Conan Nemesis         |    Raed    |         Yes         |    Yes      |        Doesn't exist         |      YES         |
 | 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            NO                 |      x         |
-| 11   |          Hatem's Secret Recipe           |    Raed    |        Yes        |     Yes       |           Yes                     |      x         |
+| 11   |          Hatem's Secret Recipe           |    Raed    |        Yes        |     Yes       |           Yes                     |      YES         |
