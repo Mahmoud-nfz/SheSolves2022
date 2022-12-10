@@ -42,7 +42,7 @@ int main() {
         ss >> fileName;
         freopen(fileName, "w", stdout);
 
-        int t = randomInt(1, 100);
+       int t = randomInt(1, 100);
         
         for (int i = 0; i < t; i++)
         {
@@ -53,10 +53,8 @@ int main() {
             ll a[n];
             for (ll j = 0; j < n; j++)
             {
-                a[i] = randomInt(-1, 1000000000);
-            }
-            for (ll j = 0; j < n; j++)
-            {
+                a[i] = randomInt(1, 1000000001);
+                a[i]-=1;
                 if (a[i] == 0)
                     a[i] = -1;
             }
