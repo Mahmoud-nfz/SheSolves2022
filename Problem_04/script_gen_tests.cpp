@@ -25,10 +25,12 @@ int digitsNbr(int x) {
     return ret;
 }
 
-int main() {
+int main()
+{
     const int tests = 40;
     const int width = digitsNbr(tests);
-    for (int i = 4; i <=4+tests; ++i) {
+    for (int i = 4; i <= 4 + tests; ++i)
+    {
         stringstream ss;
         const int testWidth = digitsNbr(i);
         string testNumber(width - testWidth, '0');
@@ -37,20 +39,38 @@ int main() {
         testNumber += testNumberStr;
         ss << "test" << testNumber << ".in";
         delete[] testNumberStr;
-
         char fileName[20];
         ss >> fileName;
-        freopen(fileName, "w", stdout);
 
-        // ------------------------------------------ CHANGE THIS
-        // 1 <= t <= 4000
-        // 1 <= a,b,c <= 10,000,000
-        int t = randomInt(1, 4000);
-        int a;
-        for(int i=0;i<t;i++){
-            a = randomInt(1, 10'000'000);
-            cout << a ;
+        //freopen(fileName, "w", stdout);
+
+        int t = randomInt(1, 100);
+        for (int i = 0; i < t; i++)
+        {
+            ll n, k;
+            n = randomInt(1, 100000);
+            bool boo = false;
+            while (!boo)
+            {
+                k = randomInt(1, 100000);
+                if (k <= n)
+                    boo = true;
+            }
+
+            cout << n << " " << k << endl;
+            ll c[n], h[n];
+            for (ll j = 0; j < n; j++)
+            {
+                c[i] = randomInt(1, 1000000000);
+                cout << c[i] << " ";
+            }
+            cout << endl;
+            for (ll j = 0; j < n; j++)
+            {
+                h[i] = randomInt(1, 1000000000);
+                cout << c[i] << " ";
+            }
+            cout << endl;
         }
-    
-}
+    }
 }
