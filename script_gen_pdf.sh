@@ -7,3 +7,9 @@ do
   markdown-pdf "Problem_$i/statement.md" -o "./pdf_statements/Problem_$i.pdf" ;
   echo "generated pdf $i";
 done
+
+for i in {01..02}
+do
+  markdown-pdf "Precontest_Problem_$i/statement.md" -o "./pdf_statements/Precontest_Problem_$i.pdf" ;
+  echo "generated pdf $i precontest";
+done
