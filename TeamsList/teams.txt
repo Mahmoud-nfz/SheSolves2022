@@ -1,0 +1,19 @@
+site	account	displayname	password	permdisplay	permlogin
+1	team1	team 1	QFjSUb	TRUE	TRUE
+1	team2	we solve	iHJtyF	TRUE	TRUE
+1	team3	Mugiwara	oUOxZJ	TRUE	TRUE
+1	team4	Powerpuffs	gcpIgK	TRUE	TRUE
+1	team5	Spies	UQoLGk	TRUE	TRUE
+1	team6	farik_zaharat	TtHTad	TRUE	TRUE
+1	team7	Panditas	wtFFLz	TRUE	TRUE
+1	team8	Momentum	amFKFj	TRUE	TRUE
+1	team9	Pulga	psWsUv	TRUE	TRUE
+1	team10	team 2	oGHKlr	TRUE	TRUE
+1	team11	Lets see	msMuvW	TRUE	TRUE
+1	team12	BLACK WIDOW	KuduNq	TRUE	TRUE
+1	team13	dementors	dFvQzn	TRUE	TRUE
+1	team14	las chicas	gJTmAp	TRUE	TRUE
+1	team15	JiJi	PhVnOz	TRUE	TRUE
+1	team16	SheCodes	NgWDdS	TRUE	TRUE
+1	team17	E9blouna rana pfe	QwAWCk	TRUE	TRUE
+1	team18	Hawawchi	ZeiieZ	TRUE	TRUE
