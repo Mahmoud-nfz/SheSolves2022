@@ -28,9 +28,9 @@ int digitsNbr(int x) {
 }
 
 int main() {
-    const int tests = 40;
+    const int tests = 20;
     const int width = digitsNbr(tests);
-    for (int i = 4; i <=4+tests; ++i) {
+    for (int i = 1; i <=tests; ++i) {
         stringstream ss;
         const int testWidth = digitsNbr(i);
         string testNumber(width - testWidth, '0');

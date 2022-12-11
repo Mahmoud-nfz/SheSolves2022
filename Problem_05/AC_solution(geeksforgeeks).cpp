@@ -75,9 +75,11 @@ int main()
 	
     while(t--){
 
+		string s;
 		for(int i=0;i<3;i++){
+			cin>>s;
 			for(int j=0;j<3;j++){
-				cin>>board[i*3 + j];
+				board[i*3 + j] = s[j];
 			}
 		}
 
