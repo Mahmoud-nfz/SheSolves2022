@@ -19,20 +19,19 @@ int main() {
             cin>>a[i].second;
         }
         sort(a,a+n);
-        int x=a[k-1].first;
-        priority_queue<ll>v;
-        int i=0;
-        while(a[i].first<=x&&i<n){
-            v.push(a[i].second);
-            i++;
+        vector<ll> possible;
+        for (int i = 0; i < n && a[i] <= a[k-1]; ++i) {
+            possible.push_back(a[i].second);
         }
-        ll ans=0;
-        while(k){
-            ll w=v.top();
-            v.pop();
-            ans+=w;
-            k--;
+        
+        sort(possible.begin(),possible.end());
+        assert(possible.size()>=k);
+
+        ll ans =0 , x= a[k-1].first;        
+        for (int i = 0; i < k; ++i) {
+            ans+=possible[i];
         }
+
         cout<<x<<" "<<ans<<endl;
     }
 }

@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
+
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
@@ -49,13 +51,10 @@ int main()
         {
             ll n, k;
             n = randomInt(1, 100000);
-            bool boo = false;
-            while (!boo)
+            do
             {
                 k = randomInt(1, 100000);
-                if (k <= n)
-                    boo = true;
-            }
+            }while(k > n);
 
             cout << n << " " << k << endl;
             ll c[n], h[n];
