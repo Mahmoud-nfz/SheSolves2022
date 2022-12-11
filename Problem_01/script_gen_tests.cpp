@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+#define ll long long int
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 int randomInt(int l, int r) { return uniform_int_distribution<int>(l, r)(rng); }
@@ -51,13 +51,16 @@ int main() {
         
         int testCases = randomInt(1, 100);
         cout << testCases << endl;      
+        ll sumOfN = 0;
         for (int i = 0; i < testCases; i++) {
             int voteSize = randomInt(1, 100000);
             cout << voteSize << endl;
+            sumOfN += voteSize;
             for (int j = 0; j < voteSize-1; j++) {
                 cout << randomChar() << ' ';
             }
             cout << randomChar() << endl;
+            assert(sumOfN<=1e7);
         }
     
 }

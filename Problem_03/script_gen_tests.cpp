@@ -50,7 +50,7 @@ int main() {
         for(int i=0;i<t;i++){
             cout << randomInt(0, 1000) << " " ;
             cout << randomInt(0, 1000) << " " ;
-            x = randomInt(0, 1000) ;
+            int x = randomInt(0, 1000) ;
             cout << x << " " ;
             if(x == 0)
                 cout << randomInt(1, 1000) << " " ;
