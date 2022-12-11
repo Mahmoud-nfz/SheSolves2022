@@ -26,9 +26,9 @@ int digitsNbr(int x) {
 }
 
 int main() {
-    const int tests = 40;
+    const int tests = 20;
     const int width = digitsNbr(tests);
-    for (int i = 4; i <=4+tests; ++i) {
+    for (int i = 1; i <=tests; ++i) {
         stringstream ss;
         const int testWidth = digitsNbr(i);
         string testNumber(width - testWidth, '0');
@@ -46,16 +46,23 @@ int main() {
         // 1 <= t <= 4000
         // 1 <= a,b,c <= 10,000,000
         int t = randomInt(1, 1000);
+        cout<<t<<'\n';
         int a;
         for(int i=0;i<t;i++){
-            cout << randomInt(0, 1000) << " " ;
-            cout << randomInt(0, 1000) << " " ;
-            int x = randomInt(0, 1000) ;
-            cout << x << " " ;
+            long long n,m,x,y;
+            n=randomInt(0, 1000);
+            m=randomInt(0, 1000);
+            x = randomInt(0, 1000) ;
+            if(x == 0){
+                m=0;
+            }
+
             if(x == 0)
-                cout << randomInt(1, 1000) << " " ;
+                y = randomInt(1, 1000);
             else
-                cout << randomInt(0, 1000) << " " ;
+                y = randomInt(0, 1000);
+
+            cout << n << " " << m << " " << x << " " << y << '\n' ;
         }
     
 }
