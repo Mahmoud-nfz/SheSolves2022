@@ -48,7 +48,7 @@ Each problem setter should include the following files in his problem folder for
 
 |      | Problem                             | author     | Problem statement | AC solution | TLE solution (if there is any) | input / output |
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
-| 1    |    Phone number                     |    Idris   |        Yes        |    Yes      |                                |      x         |
+| 1    |    	Sarah and the study group            |    Mahmoud   |        Yes        |    Yes      |                                |      x         |
 | 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      x         |
 | 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      x         |
 | 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      x         |
