@@ -1,7 +1,7 @@
 # SheSolves 5.0 ProblemSet
 
 # For explorers :
-### The complete problem set can be found as a pdf version in the [file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/ContestProblems.pdf) for the main contest and [this file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/Precontest_Problems.pdf) for the practice problems.
+### The complete problemset can be found as a pdf version in the [file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/ContestProblems.pdf) for the main contest and [this file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/Precontest_Problems.pdf) for the practice problems.
 
 Each problem folder contains the problem statement, an accepted solution and a known solution that exceeds the time limit.
 
