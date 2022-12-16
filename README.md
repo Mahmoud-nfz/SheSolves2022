@@ -39,21 +39,21 @@ Each problem setter should include the following files in his problem folder for
 
 |      | Problem            | author | Problem statement | AC solution | TLE solution | input / output |
 | ---- | ------------------ | ------ | ----------------- | ----------- | ------------ | -------------- |
-| 1    |         Doni and boring problems          |    Mahmoud   |         YES         |      YES      |       Doesn't exist      |        X       |
-| 2    |   IMO preparation      |    Yassine   |         YES         |      YES      |       Doesn't exist      |        X       |
+| 1    |         Doni and boring problems          |    Mahmoud   |         YES         |      YES      |       Doesn't exist      |        YES       |
+| 2    |   IMO preparation      |    Yassine   |         YES         |      YES      |       Doesn't exist      |        YES       |
 
 #### Official contest problems:
 
 |      | Problem                             | author     | Problem statement | AC solution | TLE solution (if there is any) | input / output |
 | ---- | ----------------------------------- | ---------- | ----------------- | ----------- | ------------------------------ | -------------- |
-| 1    |    	Sarah and the study group            |    Mahmoud   |        Yes        |    Yes      |                                |      x         |
-| 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      x         |
-| 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      x         |
-| 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      x         |
-| 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      x         |
+| 1    |    	Sarah and the study group            |    Mahmoud   |        Yes        |    Yes      |                                |      YES         |
+| 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      YES         |
+| 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      YES         |
+| 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      YES        |
+| 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      YES         |
 | 6    |   Raed and number transformation   | Raed        |         YES         |    YES       |                                |      YES        |
-| 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      x         |
-| 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      x         |
+| 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      YES         |
+| 8    |  Nada and her array of colors   |    Rami    |         YES         |     YES       |                                |      YES         |
 | 9    |         Detective Conan Nemesis         |    Raed    |         Yes         |    Yes      |        Doesn't exist         |      YES         |
-| 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            NO                 |      x         |
+| 10   |            Ironian War              |   Med Ali  |         Yes       |     Yes     |            NO                 |      YES         |
 | 11   |          Hatem's Secret Recipe           |    Raed    |        Yes        |     Yes       |           Yes                     |      YES         |
