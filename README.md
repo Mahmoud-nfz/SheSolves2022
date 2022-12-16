@@ -49,7 +49,7 @@ Each problem setter should include the following files in his problem folder for
 | 1    |    	Sarah and the study group            |    Mahmoud   |        Yes        |    Yes      |                                |      YES         |
 | 2    |  	Ines and summations 	     |    Rami    |         YES         |   YES     |                                |      YES         |
 | 3    |        Messi's last worldcup        |    Adam    |         YES         |     YES       |                                |      YES         |
-| 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      YES        |
+| 4    |          Ice cream shop             |    Adam    |         YES         |     YES       |                                |      x        |
 | 5    |              Tic Tac Toe            | Mehdi-Mahdi|         yes         |     Yes     |                                |      YES         |
 | 6    |   Raed and number transformation   | Raed        |         YES         |    YES       |                                |      YES        |
 | 7    |         Mona and the treasure         |   Mahmoud  |         YES         |     YES       |        Doesn't exist   |      YES         |
