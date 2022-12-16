@@ -19,9 +19,7 @@ Each problem setter should include the following files in his problem folder for
 ## Problemset
 
 * Pre-contest Problems: ***2 problems*** 
-* Easy Medium:  ***7 problems***
-* Medium: ***5 problems***
-
+* Contest Problems : ***11 problems***
 
 ## Problem Setters
 
@@ -42,7 +40,7 @@ Each problem setter should include the following files in his problem folder for
 |      | Problem            | author | Problem statement | AC solution | TLE solution | input / output |
 | ---- | ------------------ | ------ | ----------------- | ----------- | ------------ | -------------- |
 | 1    |         Doni and boring problems          |    Mahmoud   |         YES         |      YES      |       Doesn't exist      |        X       |
-| 2    |   an< (a0+a1+a2+...+an)/n < an+1      |    Yassine   |         YES         |      YES      |       Doesn't exist      |        X       |
+| 2    |   IMO preparation      |    Yassine   |         YES         |      YES      |       Doesn't exist      |        X       |
 
 #### Official contest problems:
 
