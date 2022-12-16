@@ -1,5 +1,14 @@
 # SheSolves 5.0 ProblemSet
 
+# For explorers :
+### The complete problem set can be found as a pdf version in the [file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/ContestProblems.pdf) for the main contest and [this file](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/Precontest_Problems.pdf) for the practice problems.
+
+Each problem folder contains the problem statement, an accepted solution and a known solution that exceeds the time limit.
+
+You can also find in each folder the script used to generate the test cases and the script used to generate the right answer files to each of these test cases.
+
+For converting the pdf to markdown, I wrote the [script](https://github.com/Mahmoud-nfz/SheSolves2022/blob/main/script_gen_pdf.sh) which makes use of markdown-pdf, an npm package.
+
 ## Format:
 
 Each problem setter should include the following files in his problem folder for the problem to be considered complete:
